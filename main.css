@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/0/08/EmpireStateNewYokCity.jpg);
+    background-size: cover;
+}
+
+.title .h1{
+    margin-top: 70px;
+    padding-top: 60px;
+    color: rgba(255, 174, 0, 0.267);
+}
+
+.title {
+    margin: 60px 30px;
+    width: 450px;
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-attachment: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.title input[type = email],
+.title input[type = password] {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+    color: mistyrose;
+    margin-bottom: 30px;
+    background-clip: padding-box;
+}
+
+.title input[type = email],
+.title input[type = password]::after{
+    text-decoration-color: wheat;
+}
+
+
+.title button{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: seashell;
+    background-color: rgba(180, 149, 64, 0.247);
+}
+
+.title button:hover{
+    background-color: rgba(15, 12, 12, 0.5);
+    transition: .4s;
+}
+
+.title button[type = button]{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.title button[type = button]:hover{
+    background-color: rgba(15, 12, 12, 0.5);
+    transition: .4s;
+}
+
+.title1{
+    font-size: 50px;
+    text-decoration-color:rgba(180, 149, 64, 0.247);
+    text-overflow: initial;
+    color: lightgrey;
+    text-align: center;
+    margin-left: 800px;
+}
+
+.p1 {
+    color: white;
+    margin-left: 800px;
+    text-indent: 85px;
+}
